@@ -1,0 +1,168 @@
+FEKO.CSV  Version 2018.1-424 from 2018-07-20
+          PREFEKO Version 2018.1-37 from 2018-06-19 [FEK: default 162; used 162] BINARY
+          CADFEKO version 2018.1-327316 (x64) from 2018-06-15                             
+          Copyright (c) 1999-2014 Altair Development S.A. (Pty) Ltd
+          Copyright (c) 2014-2018 Altair Engineering, Inc.
+          Intel(R) MKL version 2018.0.1 (build 20171007) on Intel(R) Advanced Vector Extensions (Intel(R) AVX) enabled processors, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL IMPI -- TUD277330
+          Microsoft Windows 7 Enterprise Edition Service Pack 1 (Build 7601), Version 6.1.7601 x64 (SP 1.0)
+          Intel(R) Xeon(R) CPU E3-1240 V2 @ 3.40GHz; GenuineIntel family 6 model 10 stepping 9 brand id 0
+          1 physical CPU with a total of 8 processors found (multi-core CPU with max. 4 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2019-10-30 13:43:17                     
+File:     1Blade_SEP_lam64_Carbide
+Memory:   Unlimited, system allows maximum usage of 1.940 GByte
+          (for parallel runs memory limit is per process)
+          (installed memory 7.956 GByte, thereof free 3.781 GByte)
+MD5 Check:704641557945D1A1D2739AA8998BD881
+MD5 Total:93390AFC67ADD50FE600A4A739E205D9
+ Licence:  Altair HyperWorks
+
+Number of parallel processes:     4 on 1 CPUs
+
+Master process    0 on machine: TUD277330.tudelft.net          using 1 threads
+Server process    1 on machine: TUD277330.tudelft.net          using 1 threads
+Server process    2 on machine: TUD277330.tudelft.net          using 1 threads
+Server process    3 on machine: TUD277330.tudelft.net          using 1 threads
+
+
+Spice Engine:  HyperSpice Version 2018-8333 from 2018-01-18
+
+          Surface of all triangles in m*m:     9.41816E-03
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:               0                                max. triangles:    MAXNDR    =    10326
+ Number of dielectric triangles:         10326
+ Number of aperture triangles:               0
+ Number of RL-GO triangles:                  0
+ Number of windscreen triangles:             0
+ Number of FEM surface triangles:            0
+ Number of modal port triangles:             0
+ Number of metallic segments:                0                                max. segments:     MAXNSEG   =        0
+ Number of combined MoM/MTL segments:        0
+ Number of dielectr./magnet. cuboids:        0                                max. cuboids:      MAXNQUA   =        0
+ Number of tetrahedra:                       0                                max. tetrahedra:   MAXNTETRA =        0
+ Number of edges in PO region:               0                                max. edges:        MAXPOKA   =        0
+ Number of wedges in PO region:              0                                max. wedges:       MAXPOKL   =        0
+ Number of Fock regions:                     0                                max. Fock regions: MAXFOGE   =        0
+ Number of polygonal surfaces:               0                                max. surfaces:     MAXPOLYF  =        0
+                                                                              max. corner pts.:  MAXPOLYP  =        0
+ Number of UTD cylinders:                    0
+
+ Number of metallic edges (MoM):             0  unknown:        0 (electr.)   max. edges:        MAXNKA    =    15489
+                                             0  unknown:        0 (magnet.)
+ Number of metallic edges (PO):              0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of dielectric edges (MoM):       15489  unknown:    15489 (electr.)
+                                         15489              15489 (magnet.)
+ Number of dielectric edges (PO):            0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of aperture edges (MoM):             0  unknown:        0 (magnet.) 
+ Number of edges FEM/MoM surface:            0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of nodes between segments:           0  unknown:        0             max. nodes:        MAXNKNO   =        0
+ Number of connection points:                0  unknown:        0             max. conn.:        MAXNV     =        0
+ Number of dielectric cuboids:               0  unknown:        0             max. cuboids:      MAXNQUA   =        0
+ Number of magnetic cuboids:                 0  unknown:        0
+ Number of dielectric faces (VEP):           0  unknown:        0
+ Number of magnetic faces (VEP):             0  unknown:        0
+
+ Number of basis funct. for MoM:         30978  unknown:    30978             max. basisf.       MAXNZEILE =    30978
+ Number of basis funct. for PO:              0  unknown:        0             max. basisf.       MAXNKAPO  =        0
+
+ read from input file:
+PS       0    0    3    1    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+CG      -1    0   -1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00-1.000E+00-1.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DI       1    0   -1    0    0 1.000E+00 0.000E+00 6.667E+04 0.000E+00 0.000E+00 1.000E+03 0.000E+00 0.000E+00
+ read from input file:
+DI       0    0   -1    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 1.000E+03 0.000E+00 0.000E+00
+ read from input file:
+DL       0    0    1    1    0 3.559E-05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+PW       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+FR       0    0    0    0    0 3.000E+09 0.000E+00 3.000E+09 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+A0       0    0    1  361    1 1.000E+00 0.000E+00 9.000E+01-1.800E+02 9.000E+01 1.000E+00 1.000E+00 0.000E+00
+ read from buffer:
+NC       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+FF       2    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ 
+ 
+      ==============
+      CONFIGURATION: StandardConfiguration1
+      ==============
+
+
+                                   DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   9.99308E-02   1.00000E+03    infinite    Free space
+    1      1.00000      1.00000  6.66700E+04   3.99467E+05   0.00000E+00   2.23601E-04   1.00000E+03   6.28384E-06  Dielectric1
+
+
+
+               EXCITATION BY INCIDENT PLANE ELECTROMAGNETIC WAVE 
+
+ Name:                          PlaneWaveSource1
+ Excitation index:              1
+ Frequency in Hz:               FREQ =    3.00000E+09
+ Wavelength in m:               LAMBDA =  9.99308E-02
+ Direction of incidence:        THETA =   90.00  PHI = -180.00
+ Polarisation:                  LINEAR
+ Axial ratio:                   V =      0.0000
+ Polarisation angle:            ETA =   90.00
+ Direction of propagation:      BETA0X =  1.00000E+00
+   (unit vector)                BETA0Y =  0.00000E+00
+                                BETA0Z =  0.00000E+00
+ Wave number:                   BETA0  = ( 6.28754E+01 +j 0.00000E+00)
+ Phase reference point in m:    x =  0.00000E+00, y =  0.00000E+00, z =  0.00000E+00
+ Field strength in V/m:         |E0X| =  0.00000E+00   ARG(E0X) =     0.00
+   (Phase in degrees)           |E0Y| =  1.00000E+00   ARG(E0Y) =   180.00
+                                |E0Z| =  0.00000E+00   ARG(E0Z) =     0.00
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+               All segments and triangles are perfectly conducting.
+
+ Distributed storage of MoM matrix for parallel version
+
+                    DISTRIBUTED STORAGE OF MATRIX
+
+   Storage scheme: 1
+   Number of rows of the matrix:                       30978
+   Number of columns of the matrix:                    30978
+   Number of rows of the process grid:                     2
+   Number of columns of the process grid:                  2
+   Block size:                                           128
+   Theoretical load in percent:                        99.19 %
+   Number of rows of local matrix (proc. 0):           15490
+   Number of columns of local mat.(proc. 0):           15490
+   Local memory requirement for matrix:            239940100 complex numbers
+   (corresponds to 1.788 GByte)
+
+ Storage using single precision
+
+ Memory requirement for MoM matrix: 30978 rows * 30978 columns = 959636484 complex numbers
+ For the MoM matrix, a memory of 239940100 complex numbers is used (i.e. 1.788 GByte)
+
+     Per process, 1.790 GByte of memory has been allocated dynamically,
+     which corresponds to 7.160 GByte in total for all processes together
+     (peak memory usage of 1.790 GByte per process so far)
+
