@@ -2,14 +2,28 @@
 
 datafilepath = ('./');
 
-[S_BG,Nport,t]=readsp2([datafilepath,'BG3GHzCW225s.s2p'],2);
-[S_PROP,Nport,t]=readsp2([datafilepath,'PROP3GHzCW225s.s2p'],2);
+[S_BG,Nport,t]=readsp2([datafilepath,'BG3GHzCCW.s2p'],2);
+[S_PROP,Nport,t]=readsp2([datafilepath,'PROP3GHzCCW.s2p'],2);
 
 S_21 = S_PROP - S_BG;
 signal_o = flip(S_21(:,2,1));
 signal = repmat( signal_o, 2, 1 );
-
+phi = linspace(-180, 180, 64002);
 angle_step_ducat = 180/length(t); % Deg/step
+plot(phi, db(abs(signal)/max(signal)), 'LineWidth', 2);
+grid on;
+hold on;
+
+
+T = readtable('2Blades_Carbide_HH_V3.dat');
+% T = readtable('Sphere_3D_10GHz.dat');
+
+Phi = T.PlaneWavePhi_deg_;
+
+%T6 = readtable('dipole_FF_300e6_numseg31.dat');
+
+plot(Phi, db(10.^(T.x2Blades_SEP_lam20_Carbide_dBsm_/20)/max(10.^(T.x2Blades_SEP_lam20_Carbide_dBsm_/20))), 'LineWidth', 2);
+
 %% Feko simulation SEP
 
 % T = readtable('SEP_FEM_2510_VH.dat');
